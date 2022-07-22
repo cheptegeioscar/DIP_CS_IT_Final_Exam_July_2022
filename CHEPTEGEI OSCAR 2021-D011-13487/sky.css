@@ -72,20 +72,22 @@
    opacity: 1;
    
  }
- .dropdown ul li{
-    width: 100px;
-    margin: 15px;
-    padding: 5px;
+ .dropdown  li{
+   
+    margin: 3px;
+    padding:0 10px;
     
  }
- .active,.dropdown ul li:hover{
-   background: #008CBA;
-   color:#ffffff;
+ .dropdown a{
+  color :#333;
+   text-decoration:none;
    
-   border-radius: 1.4em;
-   text-decoration: none;
-   cursor: pointer;
+   
  }
+  .dropdown a:hover{
+     background:green;
+     border-radius:5em
+     
  .tororo-cement{
   max-width: 60%;
   max-height: 50%;
@@ -565,11 +567,12 @@ hr{
     height: 100%;
     width: 100%;
     opacity: 0.5;
-    transition: .2s ease-in;
+    transition: .2s ;
     background-color: #008CBA;
+    
 } 
   .main-1:hover{
-  transform: scale(1.2);
+  transform: scale(0.5);
   }
   .camera{
     opacity:0.5 ;
